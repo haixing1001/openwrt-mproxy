@@ -9,8 +9,8 @@ PKG_LICENSE:=GPLv3
 PKG_LICENSE_FILES:=LICENSE
 
 PKG_SOURCE_PROTO:=git
-PKG_SOURCE_URL:=https://github.com/openwrt-develop/mproxy.git
-PKG_SOURCE_VERSION:=0e0e27192e91ff08f4e235065b6b24c642541334
+PKG_SOURCE_URL:=https://github.com/haixing1001/mproxy.git
+PKG_SOURCE_VERSION:=610a1e19c32ba8588dc275f1af5e991bc72b1b5d
 
 PKG_SOURCE_SUBDIR:=$(PKG_NAME)
 PKG_SOURCE:=$(PKG_SOURCE_SUBDIR).tar.gz
@@ -23,7 +23,7 @@ define Package/mproxy
 	SECTION:=net
 	CATEGORY:=Network
 	TITLE:=Lightway HTTP proxy
-	URL:=http://forums.mydigitallife.info/threads/50234
+	URL:=https://github.com/haixing1001/mproxy
 endef
 
 define Package/mproxy/description
